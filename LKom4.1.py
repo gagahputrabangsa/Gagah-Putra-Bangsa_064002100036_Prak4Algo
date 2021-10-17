@@ -20,7 +20,9 @@ while a <3:
             bitstring= str(sisa) + bitstring
             
             print("Binernya adalah: ",bitstring)
-
+    elif a1==3:
+        sys.exit(0)
+        
     elif a1==2:
         bit=input("Masukan Str Binner: ")
         desimal=0
@@ -29,7 +31,6 @@ while a <3:
             desimal += int(digit)*2**eks
             eks -= 1
         print ("Nilai Desimal adalah :",desimal)
-    elif a1==3:
-        sys.exit(0)
+    
     if a==3:
         print("==========Terimakasih==========")
