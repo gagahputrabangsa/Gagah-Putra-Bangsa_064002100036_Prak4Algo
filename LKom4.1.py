@@ -31,5 +31,5 @@ while a <3:
         print ("Nilai Desimal adalah :",desimal)
     elif a1==3:
         sys.exit(0)
-    if a==3
+    if a==3:
         print("==========Terimakasih==========")
