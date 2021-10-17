@@ -1,6 +1,7 @@
 import sys
 a=0
-while a ==0:
+while a <3:
+    a+=1
     print("=== PROGRAM KOVERSI BILANGAN===")
     print("1.Desimal ke Biner")
     print("2.Biner ke Desimal")
@@ -30,3 +31,5 @@ while a ==0:
         print ("Nilai Desimal adalah :",desimal)
     elif a1==3:
         sys.exit(0)
+    if a==3
+        print("==========Terimakasih==========")
