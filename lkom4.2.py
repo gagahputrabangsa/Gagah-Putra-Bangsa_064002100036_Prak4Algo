@@ -1,22 +1,31 @@
-aku=0 #untuk loop
-while aku == 0: #untuk loop
+print("@@@@@   @@@@@@   @@@@@   @@@@@@   @    @")
+print("@       @    @   @       @    @   @    @")
+print("@ @@@   @@@@@@   @ @@@   @@@@@@   @@@@@@")
+print("@   @   @    @   @   @   @    @   @    @")
+print("@@@@@   @    @   @@@@@   @    @   @    @")
+aku=0
+while aku==0:
+    k=input('masukan list angka: ')
+    # nilai di dalam K yang diberi spasi # 3 5 9
+    genap=[]
+    ganjil=[]
+    for k in k.split():
+        if int(k)%2==0:
+                genap.append(int(k))
+                print(' terdapat bilangan genap')
+                break
+        elif int(k)%2==0:
+            genap.append(int(k))
+            if int(k)%2==0:
+                    print('terdapat bilangan genap')
+                    break
+        elif int(k)%2==1:
+            print(' tidak terdapat bilangan genap')
+            break
+            
+        else: 
+            if int(k)%2==0:
+                genap.append(int(k))
+                print(' terdapat bilangan genap')
 
-    print("@@@@@   @@@@@@   @@@@@   @@@@@@   @    @")
-    print("@       @    @   @       @    @   @    @")
-    print("@ @@@   @@@@@@   @ @@@   @@@@@@   @@@@@@")
-    print("@   @   @    @   @   @   @    @   @    @")
-    print("@@@@@   @    @   @@@@@   @    @   @    @\n")
-
-    rif = input (' masukan list bilangan: ') #minta input
-    genap = [] #menyiapkan list genap
-    ganjil = [] #menyiapkan list ganjil
-    for rif in rif.split(): #menggunakan split untuk spasi
-        #conditional Statement
-        if int(rif) %2==0: 
-                genap.append(int(rif))
-        #conditional Statement        
-        else :
-           ganjil.append(int(rif))
-    #print hasil input
-    print(f'{genap} terdapat bilangan genap')
-    print(f'{ganjil} terdapat bilangan ganjil')
+            
